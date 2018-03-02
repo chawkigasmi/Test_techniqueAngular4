@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 NB: la 1ere etape
-faire npm install dans le console et copier le dossier node_modules\ng2-smart-table de la projet .zip dans le nouvel dossier node modules(après le npm install)
+
+Vous devez executer la commande  `npm install` puis copier le dossier 'node_modules\ng2-smart-table' de la projet .zip dans le nouvel dossier node modules(après le npm install)
 
 ## Development server
 
