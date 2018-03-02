@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-sm  navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><img class="logo_header" src="http://codnect.com/assets/images/logo2.png"> </a>
+
+
+  <div>
+    <a class="" routerLink="../login">Déconnexion</a>
+  </div>
+</nav>
+
+
+<div class="content_page">
+  <!--<ng2-smart-table [settings]="settings" [source]="data2"></ng2-smart-table>-->
+  <ng2-smart-table [settings]="settings" [source]="data2"  (deleteConfirm)="deleteRecord($event)" (editConfirm)="onSaveConfirm($event)"
+                   (createConfirm)="onCreateConfirm($event)" ></ng2-smart-table>
+</div>
+
