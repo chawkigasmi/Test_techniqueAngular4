@@ -1,6 +1,9 @@
 # TestCHawki
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+NB: la 1ere etape
+
+Vous devez executer la commande  `npm install` puis copier le dossier 'node_modules\ng2-smart-table' du projet .zip dans le nouveau dossier 'node modules'
 
 ## Development server
 
